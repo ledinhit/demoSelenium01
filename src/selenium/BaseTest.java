@@ -12,7 +12,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void beforeMethod() {
 //	  System.setProperty("webdriver.chrome.driver", "D:\\selenium\\demoSelenium01\\toolchromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "D:\\selenium\\demoSelenium01\\tool\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "E:\\Dinh_Selenium\\demoSelenium01\\tool\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get(URL_login);
 	}
